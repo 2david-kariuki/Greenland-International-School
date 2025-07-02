@@ -1,0 +1,4 @@
+/* src/pages/ActivitiesPage/ActivitiesPage.module.css */
+.activitiesPage {
+    padding: 40px 0; /* Some sections might have full width backgrounds */
+}
