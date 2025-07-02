@@ -1,0 +1,5 @@
+/* src/pages/HomePage/HomePage.module.css */
+.homePage {
+    /* Basic styling for the page container */
+    padding: 0px 0; /* No horizontal padding here, handled by sections */
+}
