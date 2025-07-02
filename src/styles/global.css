@@ -1,0 +1,40 @@
+/* src/styles/global.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap'); /* Example: Poppins font */
+
+:root {
+  --primary-green: #6edc5b; /* From your design */
+  --dark-text: #333;
+  --light-gray-bg: #f9f9f9;
+  --border-color: #eee;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--dark-text);
+  line-height: 1.6;
+  background-color: white; /* Or light-gray-bg if preferred for overall site */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Removes extra space below images */
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+}
