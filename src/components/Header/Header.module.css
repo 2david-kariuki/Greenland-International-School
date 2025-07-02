@@ -1,0 +1,50 @@
+/* src/components/Header/Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .logo a {
+    color: var(--primary-green);
+  }
+  
+  .nav {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .navLink {
+    color: var(--dark-text);
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    color: var(--primary-green);
+  }
+  
+  /* Basic responsiveness for header */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      padding: 15px 20px;
+    }
+    .nav {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 10px;
+    }
+  }
